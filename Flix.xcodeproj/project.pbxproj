@@ -15,6 +15,7 @@
 		912E1F3622C3F739009ED515 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 912E1F3522C3F739009ED515 /* main.m */; };
 		912E1F4022C3F739009ED515 /* FlixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 912E1F3F22C3F739009ED515 /* FlixTests.m */; };
 		912E1F4B22C3F739009ED515 /* FlixUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 912E1F4A22C3F739009ED515 /* FlixUITests.m */; };
+		912E1F5A22C41DC2009ED515 /* MoviesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 912E1F5922C41DC2009ED515 /* MoviesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		912E1F4622C3F739009ED515 /* FlixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		912E1F4A22C3F739009ED515 /* FlixUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlixUITests.m; sourceTree = "<group>"; };
 		912E1F4C22C3F739009ED515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		912E1F5822C41DC2009ED515 /* MoviesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoviesViewController.h; sourceTree = "<group>"; };
+		912E1F5922C41DC2009ED515 /* MoviesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoviesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				912E1F3122C3F739009ED515 /* LaunchScreen.storyboard */,
 				912E1F3422C3F739009ED515 /* Info.plist */,
 				912E1F3522C3F739009ED515 /* main.m */,
+				912E1F5822C41DC2009ED515 /* MoviesViewController.h */,
+				912E1F5922C41DC2009ED515 /* MoviesViewController.m */,
 			);
 			path = Flix;
 			sourceTree = "<group>";
@@ -265,6 +270,7 @@
 				912E1F2B22C3F738009ED515 /* ViewController.m in Sources */,
 				912E1F3622C3F739009ED515 /* main.m in Sources */,
 				912E1F2822C3F738009ED515 /* AppDelegate.m in Sources */,
+				912E1F5A22C41DC2009ED515 /* MoviesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +442,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4NNK8U3CZ8;
 				INFOPLIST_FILE = Flix/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4NNK8U3CZ8;
 				INFOPLIST_FILE = Flix/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
