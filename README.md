@@ -44,7 +44,12 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-I encountered a number of difficulties while working on this project. I got errors I had never hear of, as well as simple erros on my part becuase of naming errors. Outlets would not set, my screen came out black, and my biggest problem was the poster URLs link in my code. 
+examples of difficulties i encountered:
+- Errors I had never hear of 
+- Simple errors becuase of naming mistakes
+- Outlets would not set
+- Screen came out black
+- Wrong poster URLs link in my code. 
 
 ## Credits
 
